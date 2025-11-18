@@ -206,17 +206,3 @@ def display_score_report(score):
     
     print(f"评级: {grade}")
     print("=" * 50)
-
-# 示例
-if __name__ == "__main__":
-    try:
-        with open('examples/example.py', 'r', encoding='utf-8') as file:
-            code_to_score = file.read()
-        
-        # 评分并显示报告
-        score = python_code_scorer(code_to_score)
-        display_score_report(score)
-        
-    except FileNotFoundError:
-        print("错误：找不到文件 'examples/example.py.py'")
-        print("请将要评分的代码保存为 'examples/example.py.py' 文件")
