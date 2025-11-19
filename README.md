@@ -1,4 +1,4 @@
-# 一个自用的 Python-Code-Scorer
+# Python-Code-Scorer（自用）
 
 ---
 
@@ -7,6 +7,17 @@
 - **PEP8基础体检**
 - **复杂度扫描**
 
+---
+
+## 调用方法
+```bash
+from python_code_scorer import *
+
+with open('example.py', 'r', encoding='utf-8') as file:
+    code_to_score = file.read()
+score = python_code_scorer(code_to_score)
+display_score_report(score)
+```
 ---
 
 ## 试用
