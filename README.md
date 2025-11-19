@@ -39,5 +39,11 @@ python try.py
 
 ---
 
+## 开源协议
+
+本项目采用 MIT 协议开源，详见 [LICENSE](LICENSE) 文件。
+
+---
+
 **Made with ❤️ for Byron**  
 By Byron | [GitHub](https://github.com/byronwang2005/Python-Code-Scorer)
